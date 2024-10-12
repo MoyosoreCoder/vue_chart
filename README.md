@@ -36,12 +36,15 @@ cd vue-analytics-dashboard
 npm install
 ```
 
-## Usage
+**Usage**
 
 ```bash
-
+npm run serve
+```
 
 npm install
+
+```
 
 ```
 
