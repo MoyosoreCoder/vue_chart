@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 cd vue-analytics-dashboard
 ```
 
-3. **Install dependencies: This will install all the necessary packages**:
+3. **Install dependencies: This will install all the packages needed**:
 
 ```bash
 npm install
@@ -40,14 +40,4 @@ npm install
 
 ```bash
 npm run serve
-```
-
-npm install
-
-```
-
-```
-
-```
-
 ```
