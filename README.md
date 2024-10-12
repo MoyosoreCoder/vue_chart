@@ -26,9 +26,25 @@ To run this project locally, follow these steps:
 
 2. **Navigate into the project directory**:
 
+```bash
 cd vue-analytics-dashboard
+```
 
 3. **Install dependencies: This will install all the necessary packages**:
-   npm install
+
+```bash
+npm install
+```
 
 ## Usage
+
+```bash
+
+
+npm install
+
+```
+
+```
+
+```
