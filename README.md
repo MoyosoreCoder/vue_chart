@@ -18,11 +18,17 @@ This project implements a dashboard interface using Vue.js based on a provided F
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/MoyosoreCoder/vue-analytics-dashboard.git
+
    ```
+
 2. **Navigate into the project directory**:
 
-```bash
 cd vue-analytics-dashboard
-```
+
+3. **Install dependencies: This will install all the necessary packages**:
+   npm install
+
+## Usage
