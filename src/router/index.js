@@ -1,20 +1,17 @@
-import Vue from "vue";
-import Router from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
+import Settings from "../views/Settings.vue";
+import Reports from "../views/Reports.vue";
 
-Vue.use(Router);
+const routes = [
+  { path: "/", component: Dashboard },
+  { path: "/settings", component: Settings },
+  { path: "/reports", component: Reports },
+];
 
-export default new Router({
-  routes: [
-    {
-      path: "/",
-      name: "Dashboard",
-      component: Dashboard,
-    },
-    {
-      path: "/analytics",
-      name: "Analytics",
-      component: () => import("../views/Dashboard.vue"), // Lazy-loaded
-    },
-  ],
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
 });
+
+export default router;
